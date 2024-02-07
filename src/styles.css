@@ -1,0 +1,45 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.leaflet-container {
+  height: 600px;
+  width: 100%;
+}
+
+.leaflet-div-icon {
+  background: transparent;
+  border: none;
+}
+
+.dark-button {
+  padding: 10px 20px;
+  background-color: #343a40; /* Dark background color */
+  color: #ffffff; /* White text */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  /* width: 150px; */
+  /* margin:0 auto; */
+  text-align: center;
+}
+
+.dark-button:hover {
+  background-color: #1d2124; /* Darker background color on hover */
+}
+
+.dark-button:active {
+  background-color: #0a0c0d; /* Even darker background color when active */
+}
+
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-container input {
+  margin-bottom: 10px;
+}
